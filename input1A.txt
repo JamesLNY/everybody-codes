@@ -1,0 +1,3 @@
+Rythaelor,Sorcoryx,Arvcalyx,Tyrdax,Azmarjorath,Tazrex,Kronthar,Zorkael,Kalgarath,Aelithix
+
+L9,R6,L3,R8,L1,R7,L2,R4,L4,R7,L6

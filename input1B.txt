@@ -1,0 +1,3 @@
+Cragkris,Orykael,Tazxith,Aurelorath,Fernyn,Gavdaros,Wyneon,Shaemmyr,Raelulth,Taznix,Tharnxelor,Xaralisis,Zarathaelor,Cyndidris,Litheth,Ilmarcoryx,Ascalvash,Palthgaz,Tharilnixis,Rythmir
+
+L6,R19,L10,R14,L5,R14,L10,R8,L18,R13,L5,R8,L5,R10,L5,R7,L5,R8,L5,R5,L8,R10,L7,R12,L16,R13,L15,R15,L5

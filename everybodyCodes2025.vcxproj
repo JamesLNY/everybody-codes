@@ -125,6 +125,11 @@
   <ItemGroup>
     <ClCompile Include="quest1.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="input1A.txt" />
+    <Text Include="input1B.txt" />
+    <Text Include="input1C.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
