@@ -123,12 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="quest1.cpp" />
+    <ClCompile Include="quest2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input1A.txt" />
     <Text Include="input1B.txt" />
     <Text Include="input1C.txt" />
+    <Text Include="input2A.txt" />
+    <Text Include="input2B.txt" />
+    <Text Include="input2C.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
