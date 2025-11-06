@@ -21,7 +21,7 @@
     <ClCompile Include="quest2.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="quest3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -42,6 +42,15 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="input2C.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input3A.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input3B.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input3C.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
