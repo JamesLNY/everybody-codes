@@ -127,6 +127,7 @@
     <ClCompile Include="quest2.cpp" />
     <ClCompile Include="quest3.cpp" />
     <ClCompile Include="quest4.cpp" />
+    <ClCompile Include="quest5.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="input1A.txt" />
@@ -141,6 +142,9 @@
     <Text Include="input4A.txt" />
     <Text Include="input4B.txt" />
     <Text Include="input4C.txt" />
+    <Text Include="input5A.txt" />
+    <Text Include="input5B.txt" />
+    <Text Include="input5C.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
