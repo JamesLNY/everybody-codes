@@ -1,0 +1,28 @@
+Vaelardith,Eldenxar,Olarselor,Eldengnaris,Eldenpyros,Brivnoris,Selkoryx,Brivfelix,Olarzion,Olargnaris,Silselor,Eldennoris,Vaelnoris,Vaelpyros,Vaelselor,Silxar,Vaelgnaris,Selkpyros,Lirxal,Selkxal,Selkzion,Malardith,Helardith,Olarardith,Helxal,Selknoris,Helnoris,Malxar,Vaelnoris,Lirselor,Vaelzion,Brivxar,Eldenzion,Vaelfelix,Vaelxal,Vaelfelix,Lirgnaris,Brivardith,Olaroryx,Olarfelix,Lirardith,Selkselor,Maloryx,Vaelxar,Vaelxal,Malfelix,Lirpyros,Brivselor,Brivzion,Malgnaris,Silgnaris,Vaelpyros,Eldenfelix,Silxal,Malselor,Vaelardith,Olarpyros,Silnoris,Vaeloryx,Malpyros,Selkgnaris,Lirnoris,Silpyros,Selkfelix,Eldenardith,Vaelgnaris,Olarxal,Malxal,Helselor,Selkxar,Silzion,Lirxar,Siloryx,Lirfelix,Helzion,Vaelselor,Malzion,Selkardith,Olarnoris,Helgnaris,Brivgnaris,Olarxar,Vaelzion,Brivxal,Eldenselor,Vaelxar,Silardith,Brivpyros,Helfelix,Brivoryx,Malnoris,Eldenxal,Vaeloryx,Helpyros,Helxar,Heloryx,Silfelix,Lirzion,Eldenoryx,Liroryx
+
+s > e
+v > z,f,s,p,o,a,x,g,n
+O > l
+o > r,n,s
+z > i
+k > o,z,f,s,p,a,x,g,n
+V > a
+H > e
+a > r,l,v
+g > n
+f > e
+d > i,e
+t > h
+x > a
+r > y,z,f,s,p,o,a,d,x,g,i,n,v
+E > l
+S > e,i
+e > l,n,v
+M > a
+y > x,r
+i > o,x,t,s,v
+l > k,v,i,o,z,f,s,p,a,x,g,n
+n > a,o,z,f,s,p,x,g,n
+p > y
+B > r
+L > i

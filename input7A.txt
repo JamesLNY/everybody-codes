@@ -1,0 +1,16 @@
+Ulthys,Ulzion,Xarthys,Xareldrin,Xarzion,Tirthys,Uleldrin,Tireldrin,Tirzion
+
+a > b
+e > l
+d > r
+h > y
+U > l
+z > i
+X > a
+i > n,o,b
+t > h
+r > i,t,e,z
+T > i
+o > n
+y > s
+l > e,d,b
