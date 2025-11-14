@@ -39,6 +39,9 @@
     <ClCompile Include="quest8.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="quest9.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="input1A.txt">
@@ -111,6 +114,15 @@
       <Filter>Resource Files</Filter>
     </Text>
     <Text Include="input8C.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input9A.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input9B.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="input9C.txt">
       <Filter>Resource Files</Filter>
     </Text>
   </ItemGroup>
