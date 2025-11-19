@@ -81,6 +81,9 @@
     <ClCompile Include="Quest12\quest12.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Quest13\quest13.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="Quest01\input1A.txt">
@@ -179,5 +182,8 @@
     <Text Include="Quest12\input12A.txt" />
     <Text Include="Quest12\input12B.txt" />
     <Text Include="Quest12\input12C.txt" />
+    <Text Include="Quest13\input13A.txt" />
+    <Text Include="Quest13\input13B.txt" />
+    <Text Include="Quest13\input13C.txt" />
   </ItemGroup>
 </Project>

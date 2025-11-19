@@ -135,8 +135,12 @@
     <ClCompile Include="Quest08\quest8.cpp" />
     <ClCompile Include="Quest09\quest9.cpp" />
     <ClCompile Include="Quest12\quest12.cpp" />
+    <ClCompile Include="Quest13\quest13.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="Quest13\input13A.txt" />
+    <Text Include="Quest13\input13B.txt" />
+    <Text Include="Quest13\input13C.txt" />
     <Text Include="Quest12\input12A.txt" />
     <Text Include="Quest12\input12B.txt" />
     <Text Include="Quest12\input12C.txt" />
