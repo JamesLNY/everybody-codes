@@ -45,46 +45,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Quest01\quest1.cpp">
-      <Filter>Source Files\Quest1</Filter>
-    </ClCompile>
-    <ClCompile Include="Quest02\quest2.cpp">
-      <Filter>Source Files\Quest2</Filter>
-    </ClCompile>
-    <ClCompile Include="Quest03\quest3.cpp">
-      <Filter>Source Files\Quest3</Filter>
-    </ClCompile>
-    <ClCompile Include="Quest04\quest4.cpp">
-      <Filter>Source Files\Quest4</Filter>
-    </ClCompile>
-    <ClCompile Include="Quest05\quest5.cpp">
-      <Filter>Source Files\Quest5</Filter>
-    </ClCompile>
-    <ClCompile Include="Quest06\quest6.cpp">
-      <Filter>Source Files\Quest6</Filter>
-    </ClCompile>
-    <ClCompile Include="Quest07\quest7.cpp">
-      <Filter>Source Files\Quest7</Filter>
-    </ClCompile>
-    <ClCompile Include="Quest08\quest8.cpp">
-      <Filter>Source Files\Quest8</Filter>
-    </ClCompile>
-    <ClCompile Include="Quest09\quest9.cpp">
-      <Filter>Source Files\Quest9</Filter>
-    </ClCompile>
-    <ClCompile Include="Quest10\quest10.cpp">
-      <Filter>Source Files\Quest10</Filter>
-    </ClCompile>
-    <ClCompile Include="Quest11\quest11.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Quest12\quest12.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Quest13\quest13.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Quest14\quest14.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="quest15.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -125,7 +89,7 @@
     <Text Include="Quest04\input4C.txt">
       <Filter>Source Files\Quest4</Filter>
     </Text>
-    <Text Include="Quest05\input5C.txt">
+    <Text Include="input5C.txt">
       <Filter>Source Files\Quest5</Filter>
     </Text>
     <Text Include="Quest05\input5A.txt">

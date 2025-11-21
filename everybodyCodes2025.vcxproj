@@ -123,20 +123,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Quest11\quest11.cpp" />
-    <ClCompile Include="Quest01\quest1.cpp" />
-    <ClCompile Include="Quest10\quest10.cpp" />
-    <ClCompile Include="Quest02\quest2.cpp" />
-    <ClCompile Include="Quest03\quest3.cpp" />
-    <ClCompile Include="Quest04\quest4.cpp" />
-    <ClCompile Include="Quest05\quest5.cpp" />
-    <ClCompile Include="Quest06\quest6.cpp" />
-    <ClCompile Include="Quest07\quest7.cpp" />
-    <ClCompile Include="Quest08\quest8.cpp" />
-    <ClCompile Include="Quest09\quest9.cpp" />
-    <ClCompile Include="Quest12\quest12.cpp" />
-    <ClCompile Include="Quest13\quest13.cpp" />
     <ClCompile Include="Quest14\quest14.cpp" />
+    <ClCompile Include="quest15.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Quest14\input14A.txt" />
@@ -168,7 +156,7 @@
     <Text Include="Quest04\input4C.txt" />
     <Text Include="Quest05\input5A.txt" />
     <Text Include="Quest05\input5B.txt" />
-    <Text Include="Quest05\input5C.txt" />
+    <Text Include="input5C.txt" />
     <Text Include="Quest06\input6A.txt" />
     <Text Include="Quest06\input6B.txt" />
     <Text Include="Quest06\input6C.txt" />

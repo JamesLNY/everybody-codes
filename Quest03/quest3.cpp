@@ -8,56 +8,54 @@
 
 using namespace std;
 
-namespace quest3 {
-    static void part1() {
-        ifstream input("input3A.txt");
-        set<int> sizes;
-        if (input.is_open()) {
-            string temp;
-            while (getline(input, temp, ',')) {
-                sizes.insert(stoi(temp));
-            }
+static void part1() {
+    ifstream input("input3A.txt");
+    set<int> sizes;
+    if (input.is_open()) {
+        string temp;
+        while (getline(input, temp, ',')) {
+            sizes.insert(stoi(temp));
         }
-        input.close();
-        cout << accumulate(sizes.begin(), sizes.end(), 0);
     }
+    input.close();
+    cout << accumulate(sizes.begin(), sizes.end(), 0);
+}
 
-    static void part2() {
-        ifstream input("input3B.txt");
-        set<int> sizes;
-        if (input.is_open()) {
-            string temp;
-            while (getline(input, temp, ',')) {
-                sizes.insert(stoi(temp));
-            }
+static void part2() {
+    ifstream input("input3B.txt");
+    set<int> sizes;
+    if (input.is_open()) {
+        string temp;
+        while (getline(input, temp, ',')) {
+            sizes.insert(stoi(temp));
         }
-        input.close();
-        int output = 0;
-        for (auto it = sizes.begin(); it != next(sizes.begin(), 20); it++) {
-            output += *it;
-        }
-        cout << output;
     }
+    input.close();
+    int output = 0;
+    for (auto it = sizes.begin(); it != next(sizes.begin(), 20); it++) {
+        output += *it;
+    }
+    cout << output;
+}
 
-    static void part3() {
-        ifstream input("input3C.txt");
-        map<int, int> sizes;
-        if (input.is_open()) {
-            string temp;
-            while (getline(input, temp, ',')) {
-                if (sizes.count(stoi(temp))) {
-                    sizes[stoi(temp)]++;
-                }
-                else {
-                    sizes[stoi(temp)] = 1;
-                }
+static void part3() {
+    ifstream input("input3C.txt");
+    map<int, int> sizes;
+    if (input.is_open()) {
+        string temp;
+        while (getline(input, temp, ',')) {
+            if (sizes.count(stoi(temp))) {
+                sizes[stoi(temp)]++;
+            }
+            else {
+                sizes[stoi(temp)] = 1;
             }
         }
-        input.close();
-        int output = 0;
-        for (auto it = sizes.begin(); it != sizes.end(); it++) {
-            output = max(output, it->second);
-        }
-        cout << output;
     }
+    input.close();
+    int output = 0;
+    for (auto it = sizes.begin(); it != sizes.end(); it++) {
+        output = max(output, it->second);
+    }
+    cout << output;
 }

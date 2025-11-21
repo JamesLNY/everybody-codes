@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+everybodyCodes2025.sln
+everybodyCodes2025.vcxproj
+everybodyCodes2025.vcxproj.filters
