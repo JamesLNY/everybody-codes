@@ -1,10 +1,8 @@
 #include <iostream>
 #include <fstream>
-#include <sstream>
 #include <string>
 #include <vector>
 #include <queue>
-#include <stack>
 
 using namespace std;
 
@@ -95,19 +93,20 @@ static int dijkstra(int R) {
     q.push({ 0, start });
     while (!q.empty()) {
         int dist = q.top().first;
-	    pair<int, int> coord = q.top().second;
-	    q.pop();
+        pair<int, int> coord = q.top().second;
+        q.pop();
 
         if (coord.second < 0 || coord.second >= map.size() || coord.first < 0 || coord.first >= map[0].size()) continue;
-        if (coord.first > center.first) continue;
 
         if ((coord.first - center.first) * (coord.first - center.first) + (coord.second - center.second) * (coord.second - center.second) <= R * R) continue;
 
-	    if (distances[coord.second][coord.first] <= map[coord.second][coord.first] + dist) continue;
+        if (distances[coord.second][coord.first] <= map[coord.second][coord.first] + dist) continue;
         distances[coord.second][coord.first] = dist + map[coord.second][coord.first];
 
         for (pair<int, int> direction : newDirections) {
             pair<int, int> next = { coord.first + direction.first, coord.second + direction.second };
+            if (next.second < 0 || next.second >= map.size() || next.first < 0 || next.first >= map[0].size()) continue;
+            if (next.second > center.second && next.first == center.first && direction.first == -1) continue;
             q.push({ distances[coord.second][coord.first], next });
         }
     }
@@ -117,8 +116,6 @@ static int dijkstra(int R) {
         int dist = q.top().first;
         pair<int, int> coord = q.top().second;
         q.pop();
-        if (coord.second < 0 || coord.second >= map.size() || coord.first < 0 || coord.first >= map[0].size()) continue;
-        if (coord.first < center.first) continue;
 
         if ((coord.first - center.first) * (coord.first - center.first) + (coord.second - center.second) * (coord.second - center.second) <= R * R) continue;
 
@@ -127,6 +124,8 @@ static int dijkstra(int R) {
 
         for (pair<int, int> direction : newDirections) {
             pair<int, int> next = { coord.first + direction.first, coord.second + direction.second };
+            if (next.second < 0 || next.second >= map.size() || next.first < 0 || next.first >= map[0].size()) continue;
+            if (next.second > center.second && next.first == center.first && direction.first == 1) continue;
             q.push({ distancesRight[coord.second][coord.first], next });
         }
     }
@@ -142,9 +141,8 @@ static int dijkstra(int R) {
 static void part3() {
     parseInput("input17C.txt");
     int minVal = numeric_limits<int>::max(), minIndex = numeric_limits<int>::max();
-    for (int i = map.size() / 2; i > 0; i--) {
+    for (int i = map.size() / 2 - start.second; i > 0; i--) {
         int result = dijkstra(i);
-        cout << i << " " << result << endl;
         if (result < 0) continue;
         if (result >= i * 30) continue;
         if (result < minVal) {
