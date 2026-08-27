@@ -365,3 +365,5 @@ FodyWeavers.xsd
 *.sln
 *.vcxproj
 *.vcxproj.filters
+
+*.txt
