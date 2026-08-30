@@ -173,7 +173,3 @@ static void part3() {
     }
     cout << output;
 }
-
-int main() {
-    part3();
-}
