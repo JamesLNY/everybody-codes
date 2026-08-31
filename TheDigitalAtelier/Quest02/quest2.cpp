@@ -151,29 +151,10 @@ static void part3() {
 		}
 	}
 
-	//for (int i = -1; i < 10; i++) {
-	//	for (int j = -1; j < 10; j++) {
-	//		if (visited[i].count(j)) {
-	//			cout << "X";
-	//		}
-	//		else if (fireflies[i].count(j)) {
-	//			cout << "F";
-	//		}
-	//		else {
-	//			cout << ".";
-	//		}
-	//	}
-	//	cout << endl;
-	//}
-
 	int output = 0;
 	for (const auto& [key, val] : fireflies) {
 		output += val.size();
 	}
 
 	cout << output;
-}
-
-int main() {
-	part3();
 }
